@@ -1,0 +1,78 @@
+.Titulo {
+    background-color: cornflowerblue; /* Color de fondo gris oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 50px; /* Espaciado interno */
+    text-align: center; /* Alinear el texto al centro */
+}
+body {
+    background: linear-gradient(150deg, cornflowerblue, white);
+}
+
+.alumno {
+    text-align: center;
+    color: white;
+
+}
+.alumno h1 {
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: #ccc;
+
+}
+.alumno img {
+    border: 5px, solid, white ;
+    padding: 10px;
+}
+.formulario {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si no caben */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+}
+
+.formulario article {
+    width: 48%; /* Ancho de cada artículo */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho */
+    
+
+}
+.formulario article h2 {
+    padding: 40px; /* Espacio interno entre el texto y el borde */
+    border: 10px solid cornflowerblue; /* Borde gris claro de 1 píxel de ancho */
+    border-radius: 50px; /* Esquinas redondeadas */
+    background-color: #f1f1f1; /* Color de fondo gris claro */
+}
+
+.compañeros {
+    margin: 0 auto;
+    max-width: 600px; /* Ajusta este valor según el ancho deseado */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
