@@ -1,8 +1,8 @@
 .Titulo {
-    background-color: cornflowerblue; /* Color de fondo gris oscuro */
-    color: #fff; /* Color de texto blanco */
-    padding: 50px; /* Espaciado interno */
-    text-align: center; /* Alinear el texto al centro */
+    background-color: cornflowerblue;
+    color: white; /* Color de texto blanco */
+    padding: 50px; 
+    text-align: center; 
 }
 body {
     background: linear-gradient(150deg, cornflowerblue, white);
@@ -31,21 +31,21 @@ body {
 }
 
 .formulario article {
-    width: 48%; /* Ancho de cada artículo */
+    width: 48%; 
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
     background-color: #f9f9f9;
     border-radius: 5px;
-    box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho */
+    box-sizing: border-box; 
     
 
 }
 .formulario article h2 {
-    padding: 40px; /* Espacio interno entre el texto y el borde */
-    border: 10px solid cornflowerblue; /* Borde gris claro de 1 píxel de ancho */
+    padding: 40px; 
+    border: 10px solid cornflowerblue; 
     border-radius: 50px; /* Esquinas redondeadas */
-    background-color: #f1f1f1; /* Color de fondo gris claro */
+    background-color: white; 
 }
 
 .compañeros {
@@ -54,19 +54,19 @@ body {
 }
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    border: 1px solid #ddd; 
 }
 
 th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
 }
 
 th {
     background-color: #f2f2f2;
-    border-bottom: none;
+    font-weight: bold; 
 }
 
 tr:nth-child(even) {
@@ -74,5 +74,21 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: #e6e6e6;
+    background-color: greenyellow;
+    
+} 
+td:last-child {
+    color: black;
+};
+
+.p img {
+    border: 5px black;
+    padding: 10px;
+
 }
+
+
+
+
+
+
