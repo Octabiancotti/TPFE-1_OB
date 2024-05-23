@@ -1,6 +1,6 @@
 .Titulo {
     background-color: cornflowerblue;
-    color: white; /* Color de texto blanco */
+    color: white; 
     padding: 50px; 
     text-align: center; 
 }
@@ -11,6 +11,7 @@ body {
 .alumno {
     text-align: center;
     color: white;
+    
 
 }
 .alumno h1 {
@@ -21,8 +22,9 @@ body {
 
 }
 .alumno img {
-    border: 5px, solid, white ;
-    padding: 10px;
+    border: 3px, solid, white ;
+    padding: 0.1px;
+    margin: auto;
 }
 .formulario {
     display: flex;
